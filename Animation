@@ -1,0 +1,6 @@
+mAnimation2 = new TranslateAnimation(0f, 0f, 20f, -20f);
+		mAnimation2.setDuration(5000);
+		mAnimation2.setStartOffset(5000); 
+		mAnimation2.setRepeatMode(Animation.RESTART);
+		TextView tv = (TextView)findViewById(R.id.text); tv.setAnimation(mAnimation2);
+		
